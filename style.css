@@ -38,6 +38,17 @@ fieldset{
     border-radius: 25px;
 }
 
+.separador{
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+    padding: 5px;
+    font-weight: bold 800;
+    margin: 10% 0% 2% 0%;
+}
+/* ----------------------------------- */
+
 /* AMOSTRA */
 
 .field-amostra{
@@ -45,7 +56,7 @@ fieldset{
     height: 220px;
     display: flex;
     box-shadow:  12px 12px 24px #b3b3b3,
-            -12px -12px 24px #ffffff;
+    -12px -12px 24px #ffffff;
 }
 
 .amostra_img{
@@ -79,3 +90,92 @@ h2{
 }
 
 /* AMOSTRA */
+
+/* ----------------------------------- */
+
+/* BARRA INFERIOR */
+
+.botao{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-around;
+    background-color: white;
+    padding: 5px;
+    border-top: 1px solid black;
+}
+
+.botao img{
+    height: 40px;
+    padding: 0 5px 0 0;
+}
+
+.botao a{
+    text-align:end;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.btn{
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+/* BARRA INFERIOR */
+
+/* ----------------------------------- */
+
+/* IMAGENS */
+
+.container{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    height: 220px;
+    scroll-snap-type: x mandatory;
+    box-shadow:  12px 12px 24px #b3b3b3,
+    -12px -12px 24px #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 25px;
+}
+
+
+.item img{
+    height: 200px;
+    width: 200px;
+    margin: 7px 2px;
+}
+
+/* IMAGENS */
+
+/* ----------------------------------- */
+
+/* DESCRICAO */
+
+.field-descricao{    
+    background-color: white;
+    box-shadow:  12px 12px 24px #b3b3b3,
+    -12px -12px 24px #ffffff;
+    padding: 10px;
+    height: 100%;
+}
+
+.field-descricao p{
+    padding: 5px 0;
+    font-size: 0.85em ;
+}
+
+.field-descricao h4{
+    font-size: 1.2em;
+    padding: 5px 0;
+    font-weight: lighter;
+}
+
+
+
