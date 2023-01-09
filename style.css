@@ -9,7 +9,7 @@
 
 body{
     width: 100%;
-    background-color: #eaeaea;
+    background-color: #f1f1f1;
 }
 
 header{
@@ -42,12 +42,12 @@ fieldset{
 
 .field-amostra{
     background-color: white;
-    height: 200px;
+    height: 220px;
     display: flex;
 }
 
 .amostra_img{
-    height: 200px;
+    height: 220px;
     padding: 10px;
 }
 .descricao{
@@ -58,15 +58,16 @@ h2{
     color: black;
     text-align: start;
     letter-spacing: 1px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bold 800;
 }
 
 .preco{
     color: rgb(0, 189, 0);
+    font-size: 1.2em;
     text-decoration: underline;
     font-weight: bold;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .menor{
