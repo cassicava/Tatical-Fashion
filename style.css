@@ -46,6 +46,7 @@ fieldset{
     padding: 5px;
     font-weight: bold 800;
     margin: 10% 0% 2% 0%;
+    z-index: 1;
 }
 /* ----------------------------------- */
 
@@ -89,6 +90,9 @@ h2{
     padding: 5px 0px;
 }
 
+.ultimo{
+    margin-bottom: 10% ;
+}
 /* AMOSTRA */
 
 /* ----------------------------------- */
@@ -162,7 +166,7 @@ h2{
     background-color: white;
     box-shadow:  12px 12px 24px #b3b3b3,
     -12px -12px 24px #ffffff;
-    padding: 10px;
+    padding: 15px 20px;
     height: 100%;
 }
 
