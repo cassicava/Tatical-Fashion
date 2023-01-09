@@ -141,3 +141,20 @@ fieldset p{
 legend{
     text-align: center;
 }
+
+.container{
+    display: flex;
+    overflow-x: scroll;
+    width: 90%;
+    height: 220px;
+    margin: 50% 5%;
+    scroll-snap-type: x mandatory;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.item img{
+    height: 200px;
+    width: 200px;
+    margin: 7px 2px;
+}
