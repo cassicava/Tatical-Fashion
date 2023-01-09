@@ -9,7 +9,7 @@
 
 body{
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #fefefe;
 }
 
 header{
@@ -34,7 +34,7 @@ main{
 fieldset{
     background-color: white;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 25px;
 }
 
@@ -44,12 +44,15 @@ fieldset{
     background-color: white;
     height: 220px;
     display: flex;
+    box-shadow:  12px 12px 24px #b3b3b3,
+            -12px -12px 24px #ffffff;
 }
 
 .amostra_img{
     height: 220px;
     padding: 10px;
 }
+
 .descricao{
     padding: 10px 10px 10px 0;
 }
