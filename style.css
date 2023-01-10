@@ -46,8 +46,8 @@ fieldset{
     padding: 5px;
     font-weight: bold 800;
     margin: 10% 0% 2% 0%;
-    z-index: 1;
 }
+
 /* ----------------------------------- */
 
 /* AMOSTRA */
@@ -154,6 +154,26 @@ h2{
     height: 200px;
     width: 200px;
     margin: 7px 2px;
+}
+
+.separador-img{
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-weight: bold 800;
+    margin: 10% 0% 0% 0%;
+}
+
+.separador-img h3{
+font-size: 1.8em;
+}
+
+.lado{
+    font-size: 0.5;
+    color: #b3b3b3;
+    text-transform:inherit ;
+    text-align: center;
 }
 
 /* IMAGENS */
