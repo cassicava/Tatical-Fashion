@@ -28,7 +28,7 @@ h1{
 }
 
 main{
-    margin: 10% 5%;
+    margin: 0% 5% 5% 5%;
 }
 
 fieldset{
@@ -90,9 +90,6 @@ h2{
     padding: 5px 0px;
 }
 
-.ultimo{
-    margin-bottom: 10% ;
-}
 /* AMOSTRA */
 
 /* ----------------------------------- */
@@ -198,8 +195,8 @@ font-size: 1.8em;
 .field-descricao h4{
     font-size: 1.2em;
     padding: 5px 0;
-    font-weight: lighter;
-    
+    font-weight: bold;
+    text-align: center;
 }
 
 /* DESCRICAO */
@@ -211,15 +208,23 @@ font-size: 1.8em;
 .field-medida{
     background-color: white;
     width: 100%;
+    padding: 10px;
     box-shadow:  12px 12px 24px #b3b3b3,
     -12px -12px 24px #ffffff;
 }
 
 .medida{
-    width: 100%;
-    padding: 10px;
+    width: 100%;`
 }
 
+/* FOOTER */
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #2f4538;
+    padding: 20px 5px 70px 5px;
+}
 
 
 
