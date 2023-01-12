@@ -54,15 +54,15 @@ fieldset{
 
 .field-amostra{
     background-color: white;
-    height: 220px;
+    height: 240px;
     display: flex;
     box-shadow:  12px 12px 24px #b3b3b3,
     -12px -12px 24px #ffffff;
 }
 
 .amostra_img{
-    height: 220px;
-    padding: 10px;
+    height: 230px;
+    padding: 15px 10px;
 }
 
 .descricao{
@@ -78,16 +78,22 @@ h2{
 }
 
 .preco{
-    color: rgb(0, 189, 0);
+    color: rgb(0, 0, 0);
     font-size: 1.2em;
-    text-decoration: underline;
     font-weight: bold;
-    padding: 5px 0px;
+    padding: 5px 0px 2px 0px;
+}
+
+.preco2{
+    color: rgb(0, 189, 0);
+    font-size: 1.0em;
+    font-weight: bold;
+    padding: 0px 0px 5px 0px;
 }
 
 .menor{
     font-size: 0.85em ;
-    padding: 5px 0px;
+    padding: 3px 0px;
 }
 
 /* AMOSTRA */
