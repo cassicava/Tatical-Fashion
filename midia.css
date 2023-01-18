@@ -1,147 +1,20 @@
 /* iPhone 5 / SE (350px para baixo) */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 336px) {
+
+    .c_1{
+        height: 420px;
+    }
+
     h1{
-        color: white;
-        text-align: center;
-        letter-spacing: 7px;
-        font-size: 1.6em;
-        padding: 5px;
-        font-weight: bold 800;
-    }
-    .amostra_img{
-        height: 210px;
-        padding: 10px;
-        margin:0px 0%;
-    }
-    .descricao{
-        padding: 0px 0px 0px 0px;
-        margin: 0% 0%;
-    }
-}
-
-
-/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
-
-@media only screen and (min-width: 600px) {
-
-    .amostra_img{
-        padding: 10px;
-        margin:0px 10%;
-    }
-    .descricao{
-        padding: 30px 10px 10px 0;
-        margin: 0% 5%;
-    }
+        font-size: 1.8em;
     }
 
-
-/* Dispostivos Médios (Tablets deitados, 768px para cima) */
-@media only screen and (min-width: 768px) {
-
-    main{
-        margin: 0% 15% 5% 15%;
-    }
-    .field-amostra{
-        height: 300px;
-    }
-    .amostra_img{
-        height: 300px;
-        padding: 10px;
-        margin:0px 5%;
-    }
-    .descricao{
-        padding: 60px 10px 10px 0;
-        margin: 0% 5%;
-    }
-    .container{
-        height: 300px;
-    }
-    .item img{
-        height: 265px;
-        width: 265px;
-    }
-    .field-medida{
-        padding: 30px;
-    }
-    footer{
-        text-align: center;
-        color: white;
-        background-color: #2f4538;
-        padding: 20px 5px 80px 5px;
+    button{
+        font-size: 1.4em;
+        letter-spacing: 0px;
     }
 
-}
-
-
-/* Dispositivos Largos (laptops/desktops, 992px para cima) */
-@media only screen and (min-width: 992px){
-
-    main{
-        margin: 0% 20% 5% 20%;
+    a img{
+        margin-bottom: -6px;
     }
-    .field-amostra{
-        height: 300px;
-    }
-    .amostra_img{
-        height: 300px;
-        padding: 10px;
-        margin:0px 10%;
-    }
-    .descricao{
-        padding: 60px 10px 10px 0;
-        margin: 0% 10%;
-    }
-    .container{
-        height: 300px;
-    }
-    .item img{
-        height: 265px;
-        width: 265px;
-    }
-    .field-medida{
-        padding: 30px;
-    }
-    footer{
-        text-align: center;
-        color: white;
-        background-color: #2f4538;
-        padding: 20px 5px 80px 5px;
-    }
-
-}
-/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
-@media only screen and (min-width: 1200px) {
-
-    main{
-        margin: 0% 20% 5% 20%;
-    }
-    .field-amostra{
-        height: 300px;
-    }
-    .amostra_img{
-        height: 300px;
-        padding: 10px;
-        margin:0px 10%;
-    }
-    .descricao{
-        padding: 60px 10px 10px 0;
-        margin: 0% 10%;
-    }
-    .container{
-        height: 300px;
-    }
-    .item img{
-        height: 265px;
-        width: 265px;
-    }
-    .field-medida{
-        padding: 30px;
-    }
-    footer{
-        text-align: center;
-        color: white;
-        background-color: #2f4538;
-        padding: 20px 5px 80px 5px;
-    }
-
 }
